@@ -1,0 +1,30 @@
+.cal{
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 400px;
+    height: 450px;
+    background:grey;
+    border-radius: 10px;
+}
+#cal-screen{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 350px;
+    height: 80px;
+    pointer-events: none;
+}
+.btn{
+    width: 80px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.row{
+    margin-left: 10px;
+}
+.btn-clear{
+    width: 80px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}

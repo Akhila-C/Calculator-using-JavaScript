@@ -8,6 +8,42 @@
     <link rel="stylesheet" href="script.css">
 </head>
 <body>
+    <div class="root">
+        <div class="cal"> 
+            <div class="screen"> 
+                <input type="text" id="cal-screen">
+            </div>
+            <div class="cal-body">
+                <div class="row">
+                    <button class="btn-clear" onclick="buttonclear()">C</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="buttonclick(7)">7</button> 
+                    <button class="btn" onclick="buttonclick(8)">8</button>
+                    <button class="btn" onclick="buttonclick(9)">9</button> 
+                    <button class="btn" onclick="buttonclick('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="buttonclick(4)">4</button> 
+                    <button class="btn" onclick="buttonclick(5)">5</button>
+                    <button class="btn" onclick="buttonclick(6)">6</button> 
+                    <button class="btn" onclick="buttonclick('+')">+</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="buttonclick(1)">1</button> 
+                    <button class="btn" onclick="buttonclick(2)">2</button>
+                    <button class="btn" onclick="buttonclick(3)">3</button> 
+                    <button class="btn" onclick="buttonclick('/')">/</button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="buttonclick(0)">0</button> 
+                    <button class="btn" onclick="buttonclick('.')">.</button>
+                    <button class="btn" onclick="buttonclick('%')">%</button> 
+                    <button class="btn" onclick="buttonequal()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="java-script.js"></script>
 </body>
